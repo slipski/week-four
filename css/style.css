@@ -1,0 +1,36 @@
+body{
+  text align: center;
+}
+
+.box{
+  height: 100px
+  width: 20%;
+  display: inline-block;
+}
+.green{
+background-color: green;
+}
+
+.blue{
+  background-color:blue;
+}
+
+.red{
+  background-color: yellow;
+}
+
+.grey{
+background-color: grey;
+}
+
+@media{
+  max-width: 600px;
+.blue .green
+  display: none;
+}
+
+@media div.box{
+  min-width: 600px;
+width: 100%
+  display: none;
+}
